@@ -20,18 +20,14 @@ from transformers import (
 )
 from dotenv import load_dotenv
 load_dotenv()
+from src.mongoDB import MongoReader
+import os
+from dotenv import load_dotenv
 
 
 # ==============================
 # MONGO
 # ==============================
-
-
-
-from src.mongoDB import MongoReader
-
-import os
-from dotenv import load_dotenv
 
 load_dotenv()
 
